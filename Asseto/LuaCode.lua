@@ -34,8 +34,8 @@ local function loadImageMeta()
         ['src'] = ui.GIFPlayer(image_0_source),
         ['sizeX'] = ui.imageSize(image_0_source).x,
         ['sizeY'] = ui.imageSize(image_0_source).y,
-        ['paddingX'] = 10,
-        ['paddingY'] = 10,
+        ['paddingX'] = 50,
+        ['paddingY'] = 50,
         ['scale'] = 0.25}
 
 
