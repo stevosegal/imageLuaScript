@@ -4,8 +4,8 @@ local timer = 5
 --image_0 is used as the rules splash screen
 local image_0 = {
     ['src'] = 'https://i.imgur.com/iu7I7jh.png',
-    ['sizeX'] = 512, --size of your image in pixels
-    ['sizeY'] = 512, --size of your image in pixels
+    ['sizeX'] = 546, --size of your image in pixels
+    ['sizeY'] = 241, --size of your image in pixels
     ['paddingX'] = screensize.x/2-512/2, --this makes it sit in the centre of the screen
     ['paddingY'] = -50 --this moves it up 50 pixels
 }
