@@ -22,7 +22,7 @@ ui.setAsynchronousImagesLoading(true)
 --Image Config table that is used by the script. 
 --Duplicate the entire table and increment the numbers by 1.
 --Follow the example from image_0 and image_1 to get an understanding of how it works.
-local image_0_source = 'https://i.imgur.com/iva6dDZ.png'
+local image_0_source = 'https://i.imgur.com/iu7I7jh.png'
 local image_1_source = ''
 
 -------------------------------------------------------------------
@@ -34,9 +34,9 @@ local function loadImageMeta()
         ['src'] = ui.GIFPlayer(image_0_source),
         ['sizeX'] = ui.imageSize(image_0_source).x,
         ['sizeY'] = ui.imageSize(image_0_source).y,
-        ['paddingX'] = 30,
-        ['paddingY'] = 30,
-        ['scale'] = 0.25}
+        ['paddingX'] = 0,
+        ['paddingY'] = 0,
+        ['scale'] = 1}
 
 
         image_1 = {
@@ -170,7 +170,7 @@ function script.drawUI()
     if creditTimer > 0 then
         display.rect({ pos = vec2(screensize.x/2-120, creditPos-5), size = vec2(240,40), color = rgbm(0,0,0,0.5)})
         display.text({
-            text = 'Richie Milly is Milly Milly',
+            text = 'Welcome to Halaltech Servers',
             pos = vec2((screensize.x/2)-92, creditPos),
             letter = vec2(8, 16),
             font = 'aria',
@@ -187,7 +187,7 @@ function script.drawUI()
 -------------------------------------------------------------------
 
 
-    positionImage(image_0, 'top_left', debugImage)
+    positionImage(image_0, 'center_center', debugImage)
 
 --DO NOT forget the final "end" over here, otherwise it will not work.
 end
