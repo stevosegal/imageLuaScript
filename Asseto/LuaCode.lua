@@ -1,5 +1,5 @@
 local screensize = vec2(ac.getSim().windowWidth,ac.getSim().windowHeight)
-local timer = 20
+local timer = 15
 
 --image_0 is used as the rules splash screen
 local image_0 = {
