@@ -7,7 +7,7 @@ local image_0 = {
     ['sizeX'] = 546, --size of your image in pixels
     ['sizeY'] = 741, --size of your image in pixels
     ['paddingX'] = screensize.x/2-546/2, --this makes it sit in the centre of the screen
-    ['paddingY'] = 100 --this moves it up 50 pixels
+    ['paddingY'] = screensize.x/2-741/2 --this moves it up 50 pixels
 }
 
 --image_1 is used as the icon
